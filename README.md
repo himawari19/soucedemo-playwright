@@ -10,7 +10,7 @@ Comprehensive test automation suite untuk website [Sauce Demo](https://www.sauce
 
 ## 🌐 Published Reports
 
-📊 **[View Latest Test Report](https://himawari19.github.io/soucedemo-playwright/reports/report.html)**
+📊 **[View Latest Test Report](https://himawari19.github.io/soucedemo-playwright/report)**
 
 📈 **[View Reports Dashboard](https://himawari19.github.io/soucedemo-playwright/)**
 
