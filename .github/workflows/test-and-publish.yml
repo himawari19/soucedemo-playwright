@@ -53,7 +53,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./reports
+        publish_dir: .
         keep_files: true
     
     - name: Comment PR with report link
@@ -61,7 +61,7 @@ jobs:
       uses: actions/github-script@v7
       with:
         script: |
-          const reportUrl = `https://himawari19.github.io/soucedemo-playwright/reports/report.html`;
+          const reportUrl = `https://himawari19.github.io/soucedemo-playwright/report.html`;
           const comment = `## 📊 Test Report
           
           ✅ Tests completed! View the detailed report:
